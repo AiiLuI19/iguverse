@@ -1,0 +1,88 @@
+.section-organisations{
+    position: relative;
+    background: linear-gradient(157.51deg,#bc88ec -26.24%,#ffcaf8 87.65%);
+    margin: 70px 0;
+    padding: 72px 0 0;
+    text-align: center;
+    
+ 
+}
+
+.section-organisations h2,
+.section-organisations .title-section_text{
+    color:#fff;
+}
+.organisations-btn li{
+   
+    flex: 0 0 auto;
+    width: 100%;
+    @include predesktop{
+        width: 33.33%;
+    }
+}
+.organisations-btn{
+    display: flex;
+    position: relative;
+    margin-bottom: 70px;
+}
+.decor-wrap{
+    display: flex;
+}
+.organisations-decor ,
+.organisations-decor-top {
+    position: relative;
+}
+.organisations-decor_one-left,
+.organisations-decor_one-right{
+    display: none;
+    @include predesktop{
+        display: block;
+        position: absolute;
+    }
+   
+   
+}
+
+.organisations-decor_two-right{
+    display:none;
+    @include predesktop{
+        display: block;
+    position: absolute;
+    left: 80%;
+    bottom: 18%;
+    width: 117px;
+    height: 120px;
+}}
+.organisations-decor_two-left{
+    display: none;
+    @include predesktop{
+        display: block;
+    position: absolute;
+    left: 6%;
+    bottom: 16%;
+    width: 123px;
+    height: 123px;
+}}
+
+.screens-part{
+    margin: 0 auto;
+    display: flex;justify-content: center;
+}
+
+.screens-part li{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    
+}
+.screens-part li:first-child,
+.screens-part li:last-child{
+    display: none;
+    
+   
+    @include predesktop{
+        display: block;
+    }
+}
+.screens-part img{
+width: 377px;
+}

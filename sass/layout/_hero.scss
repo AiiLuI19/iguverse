@@ -1,0 +1,168 @@
+.hero{
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center; 
+    color:#fff;
+    margin-top: 20vh;
+
+  @include predesktop{
+    max-width: 820px;
+  }
+   
+}
+
+.title {
+    margin-bottom: 20px;
+
+    font-size: 40px;
+    font-weight: 900;
+        letter-spacing: -.32px;
+        line-height: 1.11;
+        
+    @include tablet{
+        font-size: 72px;  
+    }
+    
+}
+.hero-text {
+    margin: 0 auto 32px;
+    max-width: 640px;
+    text-align: center;
+
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 32px;
+    
+    @include tablet{
+        font-size: 20px;
+    }
+}
+.hero-btn-bottom,
+.hero-btn-top{
+    margin-bottom: 130px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    @include tablet{
+        flex-wrap:nowrap; 
+    }
+    
+}
+.hero-btn-bottom{
+   flex-wrap: wrap;
+   
+    @include predesktop{
+        flex-wrap:nowrap;
+    }
+}
+
+.hero-btn-bottom a{
+    margin:16px 0 0 ;
+     @include predesktop{
+         margin: 0;
+     }}
+ 
+ .hero-btn-top a{
+    margin:16px 0 0 ;
+     @include tablet{
+         margin: 0; 
+     }
+ }
+.hero-btn-top a{
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ececef;
+    border-radius: 1000px;
+    box-shadow: 0 3px 0 #dddfe3;
+    color: #393c46;
+    display: flex;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.5;
+    justify-content: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    transition: all .5s;
+
+    @include mobile{
+        font-size: 16px;
+    }
+    
+}
+.hero-btn-top li{
+    width: 100%;
+   
+    @include tablet{
+        width: auto;
+        
+    }
+}
+.hero-btn-top li:not(:last-child) {
+    @include tablet{
+        margin-right: 16px;
+    }
+   
+}
+.hero-btn-top img{
+    height: 29px;
+    width: 29px;
+    margin-right: 8px;
+}
+.hero-btn-top svg{
+    margin-right: 8px;
+}
+.hero-btn-bottom a{
+    color: #393c46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 5px 0;
+    transition: background-color .25s linear;  
+    border-radius: 12px;
+    font-family: Lucida Grande,sans-serif;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 700;
+    padding: 5px 0;
+    
+}
+.hero-btn-bottom li{
+    margin: 0 12px;
+    flex: 0 0 auto;
+    width: 100%;
+    @include predesktop{width: 25%;}
+   
+    
+}
+
+.hero-btn-bottom p{
+    color: #000;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;  
+}
+.hero-btn-bottom span{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 0.81;
+}
+.icon {
+    display: inline-block;
+  
+    fill: #000;
+  }
+  .hero-btn-bottom img{
+    vertical-align: middle;
+    font-size: 28px;
+    margin-right: 7px;
+    text-align: center;
+    width: 28px;
+  }
+  .hero-btn-bottom svg{
+    margin-right: 7px;
+  }

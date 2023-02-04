@@ -1,0 +1,26 @@
+.btn{
+    cursor: pointer;
+    height: 100%; 
+    padding: 12px 20px;
+    color: #393c46;
+    
+    background: #bdffe9;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 0 #86dfc2;
+    
+    font-style: 15px;
+    font-weight: 800;
+    line-height: 1.6;
+   
+    text-decoration: unset;
+    transition: all .5s;
+    
+}
+
+.btn:hover:not(disabled) {
+    background: #9fd;
+    color: #393c46;}
+
+   
+   
