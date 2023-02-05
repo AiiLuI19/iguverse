@@ -1,5 +1,6 @@
 .btn{
     cursor: pointer;
+    display: block;
     height: 100%; 
     padding: 12px 20px;
     color: #393c46;
@@ -9,12 +10,14 @@
     border-radius: 50px;
     box-shadow: 0 4px 0 #86dfc2;
     
-    font-style: 15px;
     font-weight: 800;
     line-height: 1.6;
    
     text-decoration: unset;
     transition: all .5s;
+    @include pretablet{
+        display: inline;
+    }
     
 }
 

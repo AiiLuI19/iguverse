@@ -59,6 +59,7 @@
     justify-content: center;
     min-width: 56px;
     width: 56px;
+    margin-right: 1rem;
 }
 .dropdown-menu-text h2{
     color: #393c46;
@@ -94,3 +95,11 @@
 .dropdown-menu-arrow-right.arrow-right-up::before{
     content: "\1F87D";
 }
+// #mySharedown{
+//     display: none;
+   
+//   }
+  
+//   #mySharedown.show {
+//     display: block;
+//   }

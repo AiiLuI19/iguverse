@@ -4,7 +4,7 @@
   gap: 24px 20px;
   justify-content: center;
   margin: 0 auto;
-  padding: 4px 12px;
+  
   width: 100%;
  
 }
@@ -25,17 +25,17 @@
       }
       
     }
-    .section-progress-items-item:not(:nth-child(3n)){
+   
+  .section-progress-mob{
       display: none;
-      
       @include tablet{
         display: flex;
       }
     }
-    .section-progress-btn-tab{
+    .btn.section-progress-btn-tab{
       margin: 15px 0;
       display: flex;
-      
+      width: 100%;
       justify-content: center;
       @include tablet{
         display: none;

@@ -18,6 +18,9 @@
     padding-top: 6px;
   }
 }
+.hidden{
+  overflow: hidden;
+}
 .mob-menu{
     display: flex;
     position: fixed; 
@@ -66,6 +69,7 @@ ul.mob-menu-list{
     height: 70%;
     margin-bottom: 0.5rem;
     justify-content: space-between;
+    text-align: center;
    
     padding-bottom: 30px;
     padding-top: 30px;
@@ -75,7 +79,8 @@ ul.mob-menu-list{
 }
 
  .mob-menu-list li{
-    
+    width: 100%;
+
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
@@ -95,6 +100,7 @@ ul.mob-menu-list{
 .mob-menu-list a:hover {
   
     cursor: pointer;
+    display: block;
     width: 100%;
     padding: 12px 20px;
 

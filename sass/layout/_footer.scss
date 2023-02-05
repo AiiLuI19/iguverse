@@ -120,6 +120,7 @@
 
 .footer-certificates{
     display: flex;
+    justify-content: center;
     margin-bottom: 24px;
     flex-wrap: wrap;
     @include tablet{
@@ -148,7 +149,10 @@
     flex: 0 0 auto;
     width: 100%;
     @include mobile{
-        width: 41.66666667%;;
+        width: 50%;
+    }
+    @include tablet{
+        width: 41.66666667%;
     }
 
 }
@@ -165,7 +169,11 @@
 }
 .footer-bottom-right{
     display: flex;
+    justify-content: center;
     gap: 30px;
+    @include mobile{
+        justify-content: flex-start;
+    }
 }
 .footer-bottom-right li{
     margin-bottom: 16px;
