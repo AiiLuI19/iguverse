@@ -10,7 +10,7 @@
   background-position: center;
   overflow: hidden;
 }
-.header nav{
+.header-nav{
   position: fixed;
   top:0;
   left:0;
@@ -18,26 +18,30 @@
   padding:8px;
   width: 100%;
 }
+
 .nav-wrapp{
   display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.dropdown-menu{
-  display: none;
-}
+
 .nav-list{
   display: none;
 
   @include tablet{
+    position: relative;
   display: flex;
   flex-grow: 1;
 }}
+nav{
+  display: flex;
+  align-items: center;
+}
 .nav-item{
-  padding: 0 4px;
+  margin: 0 4px;
 
   @include predesktop{
-    padding:0 12px;
+    margin:0 12px;
   }
   
 }
@@ -105,6 +109,9 @@ position: relative;
   
  
 }
+.wrapp{
+  display: flex;
+}
 .header__wrap{
   display: flex;
   justify-content: space-between;
@@ -114,28 +121,9 @@ position: relative;
   background: #fff;
   color: #393c46;
   z-index: 10;
+  border:none;
 }
-.social-list{
-  display: none;
-  @include tablet{
-  display: flex;
-    align-items: center;
-    justify-content: center;
-}}
 
-.social-list svg{
-  background: #fff;
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  box-shadow: 0 3px 0 #dddfe3;
-}
-.social-link{
- padding-right: 10px; 
-}
-.social-list svg:hover{
-  background-color: #f4f4f6;
-}
 
 .menu-open-btn{
   background-color: #fff;

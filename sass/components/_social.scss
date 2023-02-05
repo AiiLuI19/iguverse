@@ -1,0 +1,22 @@
+.social-list{
+    display: none;
+    @include tablet{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }}
+  
+  .social-list svg{
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 3px 0 #dddfe3;
+    fill:#29A9EB;
+  }
+  .social-link{
+   padding-right: 10px; 
+  }
+  .social-list svg:hover{
+    background-color: #f4f4f6;
+  }
