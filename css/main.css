@@ -376,7 +376,7 @@ ul.social-list-mob {
   justify-content: center;
 }
 
-.dropdown-menu {
+.dropdown_menu {
   position: absolute;
   top: 100%;
   left: auto;

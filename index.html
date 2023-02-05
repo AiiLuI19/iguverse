@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
-  <body>
+  <body id="body">
    
     <!-- -------------- * HEADER *----------------- -->
-    <header class="header ">  
+    <header id="header" class="header ">  
       <div class=" header-nav">
       <div class=" header__wrap container ">
        <nav>
@@ -58,8 +58,8 @@
             <li class="nav-item"><a class="nav-link" href="https://iguverse.com/" target="_blank">Team</a></li>
             <li class="nav-item"><a class="nav-link" href="https://iguverse.com/" target="_blank">Contact</a></li>
             <li class="nav-item dropdown "> 
-              <a class="nav-link dropdown-toggle " href="#"> Services <i class="arrow-down "></i> </a> </li> 
-              <ul class="dropdown-menu is-hidden" > 
+              <a class="nav-link dropdown-toggle " href="#header"> Services <i class="arrow-down "></i> </a> </li> 
+              <ul class="dropdown_menu is-hidden" > 
                   <li class="dropdown-menu-item"> 
                     <a class="dropdown-menu-link" href="https://iguverse.com/"> 
                       <div class="dropdown-menu-svg_wrap">
@@ -606,4 +606,5 @@
       header.classList.toggle("sticky", window.scrollY > 0);
     })
   </script>
+  
 </html>
