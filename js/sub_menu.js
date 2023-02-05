@@ -13,6 +13,7 @@
     
   
     function toggleSubMenu() {
+        event.preventDefault();
       const open= refs.subMenu.classList.toggle("is-hidden");
     // const open= refs.subMenu.classList.remove("is-hidden");
       console.log(open)
