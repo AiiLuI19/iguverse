@@ -142,6 +142,15 @@
 .copyright{
     font-size: 14px;
 }
+.copyright a{
+    color: #393c46;
+    transition: .3s;
+    font-weight: 700;
+}
+.copyright a:hover{
+    color: #40bf95; 
+}
+
 
 .footer-bottom-wrap_right{
     margin-bottom: 1.5rem;

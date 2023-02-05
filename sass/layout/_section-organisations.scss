@@ -32,17 +32,22 @@
 .organisations-decor-top {
     position: relative;
 }
-.organisations-decor_one-left,
+
 .organisations-decor_one-right{
     display: none;
     @include predesktop{
         display: block;
         position: absolute;
+        left: 90%;
     }
-   
-   
 }
-
+.organisations-decor_one-left{
+    display: none;
+    @include predesktop{
+        display: block;
+        position: absolute;
+    }
+}
 .organisations-decor_two-right{
     display:none;
     @include predesktop{

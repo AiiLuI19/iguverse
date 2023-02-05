@@ -1030,13 +1030,22 @@ ul.social-list-mob {
   position: relative;
 }
 
-.organisations-decor_one-left,
 .organisations-decor_one-right {
   display: none;
 }
 @media screen and (min-width: 1200px) {
-  .organisations-decor_one-left,
-.organisations-decor_one-right {
+  .organisations-decor_one-right {
+    display: block;
+    position: absolute;
+    left: 90%;
+  }
+}
+
+.organisations-decor_one-left {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .organisations-decor_one-left {
     display: block;
     position: absolute;
   }
@@ -1268,6 +1277,16 @@ ul.social-list-mob {
 
 .copyright {
   font-size: 14px;
+}
+
+.copyright a {
+  color: #393c46;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.copyright a:hover {
+  color: #40bf95;
 }
 
 .footer-bottom-wrap_right {
